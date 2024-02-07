@@ -20,6 +20,13 @@ export const SkillData = [
     height: 65,
   },
   {
+    name: "React",
+    Image: "/react.png",
+    width: 80,
+    height: 80
+,
+  },
+  {
     name: "Tailwind Css",
     Image: "/tailwind.png",
     width: 80,
@@ -31,13 +38,7 @@ export const SkillData = [
     width: 80,
     height: 80,
   },
-  {
-    name: "Redux",
-    Image: "/redux.png",
-    width: 80,
-    height: 80,
-  },
-
+ 
   {
     name: "TypeScript",
     Image: "/ts.png",
@@ -50,18 +51,8 @@ export const SkillData = [
     width: 80,
     height: 80,
   },
-  {
-    name: "Framer Motion",
-    Image: "/framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Stripe Payment",
-    Image: "/stripe.webp",
-    width: 80,
-    height: 80,
-  },
+
+ 
   {
     name: "Node js",
     Image: "/node-js.png",
@@ -69,8 +60,8 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Mongo db",
-    Image: "/mongodb.png",
+    name: "TypeScript",
+    Image: "/ts.png",
     width: 40,
     height: 40,
   },
@@ -79,37 +70,34 @@ export const SkillData = [
 export const Socials = [
   {
     name: "Discord",
-    src: "/instagram.svg",
+    src: "/discord.svg",
   },
+
   {
-    name: "Facebook",
-    src: "/facebook.svg",
-  },
-  {
-    name: "Instagram",
+    name: "linkelin",
     src: "/discord.svg",
   },
 ];
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    title: "Api Pokemón",
+    text: "Información sobre cada Pokémon nombre, número en la Pokédex, tipos, estadísticas base, etc.",
+    src: "/pokedex.png",
   },
   {
-    title: "Space Themed Website",
+    title: "ChicaRica",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    src: "/pokedex.png",
   },
   {
-    title: "Modern Nextjs Portfolio",
+    title: "La Misma",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
+    src: "/pokedex.png",
   },
   {
-    title: "Matrix themed Website",
+    title: "Otra",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    src: "/pokedex.png",
   },
 ];
 
