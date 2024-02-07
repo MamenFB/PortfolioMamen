@@ -7,6 +7,7 @@ export const SkillData = [
     width: 80,
     height: 80,
   },
+
   {
     name: "Css",
     Image: "/css.png",
@@ -29,8 +30,8 @@ export const SkillData = [
   {
     name: "Tailwind Css",
     Image: "/tailwind.png",
-    width: 80,
-    height: 80,
+    width: 90,
+    height: 90,
   },
   {
     name: "React",
@@ -56,14 +57,20 @@ export const SkillData = [
   {
     name: "Node js",
     Image: "/node-js.png",
-    width: 80,
-    height: 80,
+    width: 40,
+    height: 40,
   },
   {
     name: "TypeScript",
     Image: "/ts.png",
     width: 40,
     height: 40,
+  },
+  {
+    name: "Node js",
+    Image: "/node-js.png",
+    width: 80,
+    height: 80,
   },
 ];
 
