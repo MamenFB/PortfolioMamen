@@ -34,6 +34,7 @@ Este portafolio es más que una colección de trabajos; es una declaración de m
 1.Clona el repositorio.
 2.Instala las dependencias usando npm install tanto para el frontend como para el backend.
 3.Ejecuta la aplicación usando npm run dev.
+ en http://localhost:3000/
 
 <br><br>
 

@@ -6,6 +6,7 @@ import { SkillData } from "@/constants";
 import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 
+
 const Page = () => {
   return (
     <div
@@ -16,7 +17,7 @@ const Page = () => {
         <div className="flex flex-col items-center gap-4">
         <h1 className="font-semibold text-white text-[80px] ">
     <span className="text-transparent bg-clip-text bg-gradient-to-r
-       from-purple-800 to-red-500" style={{ WebkitTextStroke: '1px black' }}>
+       from-purple-800 to-red-500 font-bold" style={{ WebkitTextStroke: '1px black' }}>
             Skills{" "}
               {" "}
               &{" "}

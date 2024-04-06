@@ -12,11 +12,11 @@ export default function Home() {
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
-          <h1 className="text-[50px] text-white font-semibold">
+          <h1 className="text-[50px] text-white font-bold">
             Bienvenidxs a mi Portfolio
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
-               Soy Mamen
+              Soy Mamen
             </span>
           </h1>
           
@@ -29,12 +29,12 @@ export default function Home() {
           <p className="text-gray-200 hidden md:block">
             <div>
               <section>
-                <h2 className="text-[30px] text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">Mi pasión por la tecnología.</h2>
+                <h2 className="text-[30px] text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500 font-bold">Mi pasión por la tecnología.</h2>
                 <p>¡Hola! Soy una entusiasta de la tecnología.Traigo una 
                   mezcla única de creatividad y habilidad técnica. Aunque soy nueva en desarrollo web, mi pasión por aprender y experimentar me
                   mantiene en constante evolución.
 
-                
+                 
                   Cuando no estoy sumergida en el trabajo, me encantan los deportes y vivo al ritmo del rock. Estas pasiones no solo mantienen mi equilibrio, 
                   sino que también nutren mi creatividad en el ámbito profesional.</p>
               </section>

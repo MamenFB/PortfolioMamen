@@ -78,12 +78,19 @@ export const Socials = [
   {
     name: "github",
     src: "/github.png",
+    url: "https://github.com/MamenFB"
     
   },
 
   {
     name: "linkedin",
     src: "/linkedin.png",
+    url: "https://www.linkedin.com/in/mamen-fb/"
+  },
+  {
+    name: "CV",
+    src: "/CV.png",
+    url: "https://drive.google.com/file/d/1CPCdE-7L8mtPL2BmNTfNrQrctKsyYGQv/view"
   },
 ];
 export const Projects = [
