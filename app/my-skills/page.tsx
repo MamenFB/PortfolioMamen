@@ -16,12 +16,12 @@ const Page = () => {
       <div className="flex flex-col gap-20 max-w-[80%] text-center items-center">
         <div className="flex flex-col items-center gap-4">
         <h1 className="font-semibold text-white text-[80px] ">
-    <span className="text-transparent bg-clip-text bg-gradient-to-r
-       from-purple-800 to-red-500 font-bold" style={{ WebkitTextStroke: '1px black' }}>
-            Skills{" "}
-              {" "}
-              &{" "}
-            Technologies
+      <span className="text-transparent bg-clip-text bg-gradient-to-r
+      from-purple-100 to-red-100 font-bold text-[25px]" >
+        
+        "Rodeada de tecnología, busco capturar su esencia con pasión y curiosidad"{" "}
+           {" "}
+            
             </span>
           <Image
           src="/mamen.png"
