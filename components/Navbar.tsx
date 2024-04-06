@@ -24,7 +24,7 @@ const Navbar = () => {
             <Image
               src={social.src}
               alt={social.name}
-              width={50}
+              width={28}
               height={28}
               // Importante para Image dentro de <a> sin "href"
               unoptimized={true}
@@ -35,6 +35,7 @@ const Navbar = () => {
       </div>
     </div>
   );
+
 };
 
 export default Navbar;

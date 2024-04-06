@@ -20,7 +20,7 @@ const Page = () => {
       from-purple-100 to-red-100 font-bold text-[25px]" >
         
         "Rodeada de tecnología, busco capturar su esencia con pasión y curiosidad"{" "}
-           {" "}
+          {" "}
             
             </span>
           <Image

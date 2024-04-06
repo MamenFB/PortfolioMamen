@@ -100,9 +100,9 @@ export const Projects = [
     src: "/pokedex.png",
   },
   {
-    title: "ChicaRica",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/pokedex.png",
+    title: "Blog",
+    text: "Un Blog con información de publicaciones donde puedes añadir comentarios con base de datos en Mogodb y autentificarte con Google.",
+    src: "/blog.png",
   },
   {
     title: "La Misma",
