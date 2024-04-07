@@ -113,10 +113,10 @@ export const Projects = [
     deployUrl: "https://landing-page-silk-alpha.vercel.app/index.html"
   },
   {
-    title: "Otra",
-    text: "Lorem.",
-    src: "/pokedex.png",
-    deployUrl: "https://landing-page-silk-alpha.vercel.app/html/estudio.html"
+    title: "productos web",
+    text: "Python, Django, Bootstrap, Db Broswer for SQLite.",
+    src: "/proweb.png",
+    deployUrl: ""
   },
 ];
 

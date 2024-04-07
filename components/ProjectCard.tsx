@@ -48,7 +48,7 @@ const ProjectCard = ({ image, title, text, deployUrl}: Props) => {
                     <p className=' text bg-purple-800 rounded-md p-2'>
                         {text}
                     </p>
-                    <a href={deployUrl} target="_blank" rel="noopener noreferrer" className="text-bg-purple-800 underline">Ver Proyecto</a>
+                    <a href={deployUrl} target="_blank" rel="noopener noreferrer" className="text-bg-purple-800 underline">👉Para ver Deploy</a>
                   </div>
             </div>
         </motion.div>
