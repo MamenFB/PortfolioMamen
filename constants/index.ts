@@ -96,23 +96,27 @@ export const Socials = [
 export const Projects = [
   {
     title: "Api Pokemón",
-    text: "Información sobre cada Pokémon nombre, número en la Pokédex, tipos, estadísticas base, etc.",
+    text: "TypeScript para React  y Vite.",
     src: "/pokedex.png",
+    deployUrl: "https://pokedex-react-isb21ztj1-mamenfbs-projects.vercel.app/"
   },
   {
     title: "Blog",
-    text: "Un Blog con información de publicaciones donde puedes añadir comentarios con base de datos en Mogodb y autentificarte con Google.",
+    text: " (CRUD),MERN y seguridad.",
     src: "/blog.png",
+    deployUrl: "https://landing-page-silk-alpha.vercel.app/html/estudio.html"
   },
   {
-    title: "La Misma",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/pokedex.png",
+    title: "Landig Page",
+    text: "HTML, CSS,JavaScript.",
+    src: "/landing.png",
+    deployUrl: "https://landing-page-silk-alpha.vercel.app/index.html"
   },
   {
     title: "Otra",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    text: "Lorem.",
     src: "/pokedex.png",
+    deployUrl: "https://landing-page-silk-alpha.vercel.app/html/estudio.html"
   },
 ];
 

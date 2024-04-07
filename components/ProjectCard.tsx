@@ -6,9 +6,10 @@ interface Props {
     image: string;
     title: string;
     text: string;
+    deployUrl: string;
 }
 
-const ProjectCard = ({ image, title, text}: Props) => {
+const ProjectCard = ({ image, title, text, deployUrl}: Props) => {
     const [isFlipped, setIsFlipped] = useState(false)
     const [isAnimating, setIsAnimating] = useState(false)
 
@@ -33,8 +34,8 @@ const ProjectCard = ({ image, title, text}: Props) => {
             style={{backgroundImage: `url(${image})`}}
             className='w-full h-full group relative flip-card-front bg-cover bg-center text-red rounded-lg p-4'>
                     <div  className='absolute inset-0 w-full h-full rounded-md bg-red opacity-0 group-hover:opacity-40'/>
-                    <div className='absolute inset-0 w-full h-full text-[20px] pb-10 hidden group-hover:flex items-center z-[20] justify-center text-purple-800 font-bold'>
-                      👌😊 MÁS INFORMACIÓN 👉 
+                    <div className='absolute inset-0 w-full h-full text-[20px] pb-10 hidden group-hover:flex items-center z-[20] justify-center text-purple-800 font-bold '>
+                       MÁS INFORMACIÓN 👉 
                     </div>
 
             </div>
@@ -47,6 +48,7 @@ const ProjectCard = ({ image, title, text}: Props) => {
                     <p className=' text bg-purple-800 rounded-md p-2'>
                         {text}
                     </p>
+                    <a href={deployUrl} target="_blank" rel="noopener noreferrer" className="text-bg-purple-800 underline">Ver Proyecto</a>
                   </div>
             </div>
         </motion.div>
