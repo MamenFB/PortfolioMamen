@@ -60,5 +60,6 @@ Las contribuciones son bienvenidas. Si tienes alguna sugerencia para mejorar, po
 
 
 
-## 🔗 Deploy on Vercel 
+## 🔗 Deploy  
 
+https://dashing-dasik-1db220.netlify.app/
