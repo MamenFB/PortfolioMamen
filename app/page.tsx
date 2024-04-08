@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="w-screen h-screen relative">
-      {/* <audio src="/audio.mpeg" autoPlay ></audio> */}
+      <audio src="/audio.mpeg" autoPlay ></audio>
       <div
         className="flex items-center w-full h-full bg-cover bg-center"
         style={{ backgroundImage: "url(/main-bg.webp)" }}
