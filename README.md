@@ -15,13 +15,11 @@ Este portafolio es más que una colección de trabajos; es una declaración de m
 ## ⚙️ Technologies
 
 -📍 Backend:    <br>
-![Static Badge](https://img.shields.io/badge/expressL-4.18.2-green?logo=express)
-![Static Badge](https://img.shields.io/badge/MySQL-3.9.1-blue?logo=MySQL) <br>
+ <br>
 -📍 Frontend: <br>
-![Static Badge](https://img.shields.io/badge/Boostrasp-5.3.2-violet?logo=bootstrap)
-![Static Badge](https://img.shields.io/badge/vite-5.0.8-yellow?logo=vite) ![Static Badge](https://img.shields.io/badge/React-18.2.0-green?logo=react) <br>
+ <br>
 -📍 Base de Datos:<br>
-![Static Badge](https://img.shields.io/badge/MySQL-8.0-blue?logo=MySQL)
+
 
 
 
