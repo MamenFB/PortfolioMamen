@@ -7,7 +7,7 @@ const ContactForm = () => {
       <div className="mb-3">
         <input
           type="text"
-          placeholder="Your name"
+          placeholder="Nombre"
           name="name"
           className="w-full px-3 py-2 text-sm text-gray-200 placeholder-gray-400 bg-white border-0 rounded shadow"
         />
@@ -22,7 +22,7 @@ const ContactForm = () => {
       </div>
       <div className="mb-3">
         <input
-          placeholder="Your message"
+          placeholder="Tú mensaje"
           name="message"
           className="w-full px-3 py-2 text-sm text-gray-200 placeholder-gray-400 bg-white border-0 rounded shadow"
         />

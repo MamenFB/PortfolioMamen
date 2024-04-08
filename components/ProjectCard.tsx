@@ -34,8 +34,8 @@ const ProjectCard = ({ image, title, text, deployUrl}: Props) => {
             style={{backgroundImage: `url(${image})`}}
             className='w-full h-full group relative flip-card-front bg-cover bg-center text-red rounded-lg p-4'>
                     <div  className='absolute inset-0 w-full h-full rounded-md bg-red opacity-0 group-hover:opacity-40'/>
-                    <div className='absolute inset-0 w-full h-full text-[20px] pb-10 hidden group-hover:flex items-center z-[20] justify-center text-purple-800 font-bold '>
-                       MÁS INFORMACIÓN 👉 
+                    <div className='absolute inset-0 w-full h-full text-[20px] pb-10 hidden group-hover:flex items-center z-[20] justify-center text-purple-800 font-bold text-shadow '>
+                      MÁS INFORMACIÓN 👉 
                     </div>
 
             </div>
@@ -48,7 +48,7 @@ const ProjectCard = ({ image, title, text, deployUrl}: Props) => {
                     <p className=' text bg-purple-800 rounded-md p-2'>
                         {text}
                     </p>
-                    <a href={deployUrl} target="_blank" rel="noopener noreferrer" className="text-bg-purple-800 underline">👉Para ver Deploy</a>
+                    <a href={deployUrl} target="_blank" rel="noopener noreferrer" className="text-bg-purple-800 underline font-bold">👉Para ver Deploy</a>
                   </div>
             </div>
         </motion.div>

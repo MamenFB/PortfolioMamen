@@ -104,7 +104,7 @@ export const Projects = [
     title: "Blog",
     text: " (CRUD),MERN y seguridad.",
     src: "/blog.png",
-    deployUrl: "https://landing-page-silk-alpha.vercel.app/html/estudio.html"
+    deployUrl: "https://blog-6.onrender.com"
   },
   {
     title: "Landig Page",
