@@ -1,6 +1,7 @@
  ##✨ Portfolio Mamen ✨<br>
 
-![image](https://github.com/MamenFB/PortfolioMamen/assets/106315129/3ba55806-a76b-47a0-bb2e-abccf48bda0e)
+![image](https://github.com/MamenFB/PortfolioMamen/assets/106315129/19e557cc-d1eb-4d8f-858f-1c4c15d58a56)
+
 
 
 ## 🎯 Mi objetivo 
@@ -17,6 +18,8 @@ Este portafolio es más que una colección de trabajos; es una declaración de m
 -📍 Backend:    <br>
  <br>
 -📍 Frontend: <br>
+   typescript<br>
+   tailwindcss
  <br>
 -📍 Base de Datos:<br>
 
