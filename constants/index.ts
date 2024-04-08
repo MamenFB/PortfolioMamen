@@ -90,7 +90,7 @@ export const Socials = [
   {
     name: "CV",
     src: "/CV.png",
-    url: "https://drive.google.com/file/d/1CPCdE-7L8mtPL2BmNTfNrQrctKsyYGQv/view"
+    url: "https://drive.google.com/file/d/1YIJCyi55AUScXbXeMgg8-b2LRQHkxlqe/view?usp=drive_link"
   },
 ];
 export const Projects = [
