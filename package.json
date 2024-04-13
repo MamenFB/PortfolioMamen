@@ -4,16 +4,27 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "babel src --out-dir build",
+    "start": " nodemon src/index.js --babel-node",
     "lint": "next lint"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1",
+    "morgan": "^1.10.0",
     "next": "14.0.1",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
@@ -21,6 +32,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.0.1",
     "framer-motion": "^10.16.4",
+    "nodemon": "^3.1.0",
     "postcss": "^8",
     "react-icons": "^4.11.0",
     "swiper": "^11.0.3",
