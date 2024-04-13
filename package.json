@@ -1,11 +1,12 @@
 {
   "name": "next-website",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "babel src --out-dir build",
-    "start": " nodemon src/index.js --babel-node",
+    "build": "",
+    "start": "node api/index.js",
     "lint": "next lint"
   },
   "dependencies": {
