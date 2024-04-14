@@ -34,10 +34,9 @@ Este portafolio es más que una colección de trabajos; es una declaración de m
 
 1.Clona el repositorio.
 2.Instala las dependencias usando npm install tanto para el frontend como para el backend.
-3.
-  Para el Frontend (Next.js):
+3.Para el Frontend (Next.js):
   Ejecuta npm run dev en una terminal. http://localhost:3000 por defecto.
-  Para el Backend (Express):
+4.Para el Backend (Express):
   Ejecuta npm run start en otra terminal. Esto iniciará tu servidor Express usando Nodemon en http://localhost:4000.
   <br><br>
 
