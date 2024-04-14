@@ -12,33 +12,37 @@ Este portafolio es más que una colección de trabajos; es una declaración de m
 
 <br><br><br>
 
+## ⚙️ Tecnologías principales
+- **Next.js**: Framework de React.
+- **React**: Biblioteca de JavaScript.
+- **Node.js**: Entorno de ejecución para JavaScript construido con el motor de JavaScript V8 de Chrome.
 
-## ⚙️ Technologies
+## 📍 Backend
+- **Express**: Framework para aplicaciones web para Node.js.
+- **Mongoose**: Herramienta de modelado de objetos para MongoDB y Node.js.
+- **Helmet**: Ayuda a proteger las aplicaciones Express configurando varios encabezados HTTP.
+- **Morgan**: Middleware de registro de solicitudes HTTP para Node.js.
+- **jsonwebtoken**: Implementación de JSON Web Tokens para Node.js.
 
--📍 Backend:    <br>
- <br>
--📍 Frontend: <br>
-   typescript<br>
-   tailwindcss
- <br>
--📍 Base de Datos:<br>
+## 👮‍♀️ Seguridad
+- **bcryptjs**: Librería para hashear y verificar contraseñas en Node.js.
+- **cors**: Middleware que se puede usar para habilitar CORS.
+- **dotenv**: Carga variables de entorno desde un archivo `.env`.
+
+## 📍 Frontend
+- **Tailwind CSS**: Framework de CSS que permite crear diseños responsivos y personalizados rápidamente.
+- **Framer Motion**: Biblioteca para animaciones en React.
+- **Swiper**: Poderoso deslizador (slider) moderno con transiciones personalizables.
+- **React Icons**: Permite incluir íconos populares en proyectos de React.
+
+## 🛠️ Herramientas de desarrollo
+- **ESLint**: Herramienta de linting para JavaScript y JSX.
+- **Babel**: Compilador para escribir código JavaScript moderno.
+- **Nodemon**: Utilidad que monitorea los cambios en el código fuente que está siendo desarrollado y automáticamente reinicia el servidor.
+- **TypeScript**: Superset de JavaScript que añade tipos estáticos.
+- **PostCSS**: Herramienta para transformar estilos CSS con plugins de JavaScript.
 
 
-
-
-
-<br><br>
-
-
-## 🚀 Para ejecutar: 
-
-1.Clona el repositorio.
-2.Instala las dependencias usando npm install tanto para el frontend como para el backend.
-3.Para el Frontend (Next.js):
-  Ejecuta npm run dev en una terminal. http://localhost:3000 por defecto.
-4.Para el Backend (Express):
-  Ejecuta npm run start en otra terminal. Esto iniciará tu servidor Express usando Nodemon en http://localhost:4000.
-  <br><br>
 
 ## 🪢 Branches 
 
