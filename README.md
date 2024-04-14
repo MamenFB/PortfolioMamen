@@ -37,7 +37,6 @@ Este portafolio es más que una colección de trabajos; es una declaración de m
 
 ## 🛠️ Herramientas de desarrollo
 - **ESLint**: Herramienta de linting para JavaScript y JSX.
-- **Babel**: Compilador para escribir código JavaScript moderno.
 - **Nodemon**: Utilidad que monitorea los cambios en el código fuente que está siendo desarrollado y automáticamente reinicia el servidor.
 - **TypeScript**: Superset de JavaScript que añade tipos estáticos.
 - **PostCSS**: Herramienta para transformar estilos CSS con plugins de JavaScript.
