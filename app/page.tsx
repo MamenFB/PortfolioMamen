@@ -60,13 +60,7 @@ export default function Home() {
       </div>
 
       <div className="absolute bottom-0 z-[5] w-full h-auto">
-        {/* <Image
-          src="/trees.webp"
-          alt="trees"
-          width={2000}
-          height={2000}
-          className="w-full h-full"
-        /> */}
+      
       </div>
 
       <Image
