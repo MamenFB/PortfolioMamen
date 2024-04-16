@@ -90,7 +90,7 @@ export const Socials = [
   {
     name: "CV",
     src: "/CV.png",
-    url: "https://drive.google.com/file/d/1YIJCyi55AUScXbXeMgg8-b2LRQHkxlqe/view?usp=drive_link"
+    url: "https://drive.google.com/file/d/1cr78mu2Il1tZU0Rft5e_VWVFp6tW0FqN/view?usp=drive_link"
   },
 ];
 export const Projects = [
@@ -108,13 +108,13 @@ export const Projects = [
   },
   {
     title: "Landig Page",
-    text: "HTML, CSS,JavaScript.",
+    text: "HTML, CSS y JavaScript.",
     src: "/landing.png",
     deployUrl: "https://landing-page-silk-alpha.vercel.app/index.html"
   },
   {
     title: "productos web",
-    text: "Python, Django, Bootstrap, Db Broswer for SQLite.",
+    text: "Python, Django y Db Broswer for SQLite.",
     src: "/proweb.png",
     deployUrl: ""
   },

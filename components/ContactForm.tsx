@@ -54,7 +54,7 @@ const ContactForm = () => {
           name="name"
           value={formValues.name}
           onChange={handleChange}
-          className="w-full px-3 py-2 text-sm text-gray-200 placeholder-gray-400 bg-white border-0 rounded shadow"
+          className="w-full px-3 py-2 text-sm text-gray-800 placeholder-gray-400 bg-white border-0 rounded shadow"
         />
       </div>
       <div className="mb-3">
@@ -64,7 +64,7 @@ const ContactForm = () => {
           name="email"
           value={formValues.email}
           onChange={handleChange}
-          className="w-full px-3 py-2 text-sm text-gray-200 placeholder-gray-400 bg-white border-0 rounded shadow"
+          className="w-full px-3 py-2 text-sm text-gray-800 placeholder-gray-400 bg-white border-0 rounded shadow"
         />
       </div>
       <div className="mb-3">
@@ -74,7 +74,7 @@ const ContactForm = () => {
           name="message"
           value={formValues.message}
           onChange={handleChange}
-          className="w-full px-3 py-2 text-sm text-gray-200 placeholder-gray-400 bg-white border-0 rounded shadow"
+          className="w-full px-3 py-2 text-sm text-gray-800 placeholder-gray-400 bg-white border-0 rounded shadow"
         />
       </div>
       <button type="submit" className="px-6 mb-10 py-3 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-blue-500 hover:bg-purple-800">
