@@ -116,7 +116,7 @@ export const Projects = [
     title: "productos web",
     text: "Python, Django y Db Broswer for SQLite.",
     src: "/proweb.png",
-    deployUrl: "https://proyecto-final-7.onrender.com"
+    deployUrl: "https://proyecto-final-9n00.onrender.com"
   },
 ];
 
