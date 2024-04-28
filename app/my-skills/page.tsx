@@ -17,9 +17,9 @@ const Page = () => {
         <div className="flex flex-col items-center gap-4">
         <h1 className="font-semibold text-white text-[80px] ">
       <span className="text-transparent bg-clip-text bg-gradient-to-r
-      from-purple-100 to-red-100 font-bold text-[25px]" >
+      from-purple-100 to-red-100 font-bold text-sm sm:text-lg lg:text-xl xl:text-2xl">
         
-        Rodeada de tecnología, busco capturar su esencia con pasión y curiosidad
+        Rodeada de tecnología, busco capturar su esencia con pasión y curiosidad, este es mi Stack.
         
             
             </span>
