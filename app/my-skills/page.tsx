@@ -21,7 +21,7 @@ const Page = () => {
         
         Rodeada de tecnología, busco capturar su esencia con pasión y curiosidad.
      
-      <h2 className="text-[30px] text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-red-700 font-bold text-sm sm:text-lg lg:text-xl xl:text-2xl">Este es mi Stack</h2>
+      <h2 className="text-[30px] text-transparent  bg-clip-text bg-gradient-to-r from-purple-700 to-red-700 font-bold text-sm sm:text-lg lg:text-xl xl:text-2xl">Este es mi Stack Tecnológico</h2>
          
         
             
@@ -29,8 +29,8 @@ const Page = () => {
           <Image
           src="/mamen.png"
           alt="Mamen"
-          height={150} 
-          width={150
+          height={120} 
+          width={120
 
           } 
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[15] rounded-lg"
