@@ -19,15 +19,20 @@ const Page = () => {
       <span className="text-transparent bg-clip-text bg-gradient-to-r
       from-purple-100 to-red-100 font-bold text-sm sm:text-lg lg:text-xl xl:text-2xl">
         
-        Rodeada de tecnología, busco capturar su esencia con pasión y curiosidad, este es mi Stack.
+        Rodeada de tecnología, busco capturar su esencia con pasión y curiosidad.
+     
+      <h2 className="text-[30px] text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-red-700 font-bold text-sm sm:text-lg lg:text-xl xl:text-2xl">Este es mi Stack</h2>
+         
         
             
             </span>
           <Image
           src="/mamen.png"
           alt="Mamen"
-          height={200} 
-          width={200} 
+          height={150} 
+          width={150
+
+          } 
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[15] rounded-lg"
         />
           </h1>

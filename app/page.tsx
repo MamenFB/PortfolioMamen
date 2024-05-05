@@ -13,7 +13,7 @@ export default function Home() {
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
           <h1 className="text-[50px] text-white font-bold text-sm sm:text-lg lg:text-xl xl:text-2xl">
             Bienvenidxs a mi Portfolio
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500 text-sm sm:text-lg lg:text-xl xl:text-2xl">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-red-700 text-sm sm:text-lg lg:text-xl xl:text-2xl">
               {" "}
               Soy Mamen
             </span>
@@ -28,7 +28,7 @@ export default function Home() {
           <p className="text-gray-200 hidden md:block">
             <div>
               <section>
-                <h2 className="text-[30px] text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500 font-bold text-sm sm:text-lg lg:text-xl xl:text-2xl">Mi pasión por la tecnología.</h2>
+                <h2 className="text-[30px] text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-red-700 font-bold text-sm sm:text-lg lg:text-xl xl:text-2xl">Mi pasión por la tecnología.</h2>
                 <p>¡Hola! Soy una entusiasta de la tecnología. mi pasión por aprender y experimentar me
                   mantiene en constante evolución.
 
