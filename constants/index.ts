@@ -96,7 +96,7 @@ export const Socials = [
 export const Projects = [
   {
     title: "Api Pokemón",
-    text: "TypeScript para React  y Vite.",
+    text: "TypeScript, React  y Vite.",
     src: "/pokedex.png",
     deployUrl: "https://pokedex-react-isb21ztj1-mamenfbs-projects.vercel.app/"
   },
@@ -114,7 +114,7 @@ export const Projects = [
   },
   {
     title: "productos web",
-    text: "Python, Django y Db Broswer for SQLite.",
+    text: "Python, Django y Db Broswer SQLite.",
     src: "/proweb.png",
     deployUrl: "https://proyecto-final-9n00.onrender.com"
   },
