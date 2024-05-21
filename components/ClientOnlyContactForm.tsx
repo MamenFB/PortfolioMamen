@@ -7,7 +7,7 @@ const ClientOnlyContactForm = () => {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    // Este efecto se ejecutará solo en el cliente.
+   
     setIsClient(true);
   }, []);
 

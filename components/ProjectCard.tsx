@@ -25,7 +25,7 @@ const ProjectCard = ({ image, title, text, deployUrl }: Props) => {
             <motion.div
                 className='flip-card-inner w-full h-full'
                 initial={false}
-                animate={{ rotateY: isFlipped ? 180 : 0 }}  // Logical flip behavior
+                animate={{ rotateY: isFlipped ? 180 : 0 }}  
                 transition={{ duration: 0.6 }}
                 onAnimationComplete={() => setIsAnimating(false)}
             >

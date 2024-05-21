@@ -14,7 +14,7 @@ const Navbar = () => {
 
       <div className="flex flex-row gap-5 mb-2">
         {Socials.map((social) => (
-          // Envuelve cada imagen con un enlace
+         
           <a
             key={social.name}
             href={social.url}
@@ -26,7 +26,7 @@ const Navbar = () => {
               alt={social.name}
               width={28}
               height={28}
-              // Importante para Image dentro de <a> sin "href"
+              
               unoptimized={true}
             />
           </a>
