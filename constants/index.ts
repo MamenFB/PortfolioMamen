@@ -7,6 +7,7 @@ export const SkillData = [
     width: 80,
     height: 80,
   },
+
   {
     name: "Css",
     Image: "/css.png",
@@ -23,7 +24,8 @@ export const SkillData = [
     name: "React",
     Image: "/react.png",
     width: 80,
-    height: 80,
+    height: 80
+,
   },
   {
     name: "Tailwind Css",
@@ -37,6 +39,7 @@ export const SkillData = [
     width: 40,
     height: 40,
   },
+ 
   {
     name: "TypeScript",
     Image: "/ts.png",
@@ -49,6 +52,8 @@ export const SkillData = [
     width: 120,
     height: 10,
   },
+
+ 
   {
     name: "Node js",
     Image: "/node-js.png",
@@ -73,66 +78,68 @@ export const Socials = [
   {
     name: "github",
     src: "/github.png",
-    url: "https://github.com/MamenFB",
+    url: "https://github.com/MamenFB"
+    
   },
+
   {
     name: "linkedin",
     src: "/linkedin.png",
-    url: "https://www.linkedin.com/in/mamen-fb/",
+    url: "https://www.linkedin.com/in/mamen-fb/"
   },
   {
     name: "CV",
     src: "/CV.png",
-    url: "https://drive.google.com/file/d/1cr78mu2Il1tZU0Rft5e_VWVFp6tW0FqN/view?usp=drive_link",
+    url: "https://drive.google.com/file/d/1cr78mu2Il1tZU0Rft5e_VWVFp6tW0FqN/view?usp=drive_link"
   },
 ];
-
 export const Projects = [
   {
     title: "Api Pokemón",
-    text: "TypeScript, React y Vite.",
+    text: "TypeScript, React  y Vite.",
     src: "/pokedex.png",
-    deployUrl: "https://pokedex-react-isb21ztj1-mamenfbs-projects.vercel.app/",
+    deployUrl: "https://pokedex-react-isb21ztj1-mamenfbs-projects.vercel.app/"
   },
   {
     title: "Blog",
     text: " (CRUD),MERN y seguridad.",
     src: "/blog.png",
-    deployUrl: "https://blog-6.onrender.com",
+    deployUrl: "https://blog-6.onrender.com"
   },
   {
     title: "Landig Page",
     text: "HTML, CSS y JavaScript.",
     src: "/landing.png",
-    deployUrl: "https://landing-page-silk-alpha.vercel.app/index.html",
+    deployUrl: "https://landing-page-silk-alpha.vercel.app/index.html"
   },
   {
     title: "productos web",
     text: "Python, Django y Db Broswer SQLite.",
     src: "/proweb.png",
-    deployUrl: "https://proyecto-final-9n00.onrender.com",
+    deployUrl: "https://proyecto-final-9n00.onrender.com"
   },
 ];
 
 export const NavLinks = [
   {
-    name: "Home",
+    name: "/",
     icon: RxHome,
     link: "/",
   },
   {
-    name: "My Skills",
+    name: "/my-skills",
     icon: RxPerson,
     link: "/my-skills",
   },
   {
-    name: "My Projects",
+    name: "/my-projects",
     icon: RxDashboard,
     link: "/my-projects",
   },
   {
-    name: "Contact Me",
+    name: "/contact-me",
     icon: RxClipboard,
     link: "/contact-me",
   },
 ];
+
