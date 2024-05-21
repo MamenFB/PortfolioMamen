@@ -27,7 +27,7 @@ const ContactForm = () => {
   const sendMail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault(); // Evitar recarga de la página
     emailjs
-      .send("service_c61akaa", "template_qoy3u04", formValues)
+      .send("service_s4ju1yv", "template_qoy3u04", formValues)
       .then(
         (result) => {
           alert("Mensaje enviado con éxito!");
@@ -41,7 +41,7 @@ const ContactForm = () => {
   };
 
   useEffect(() => {
-    emailjs.init("WvUl0DMBSH5r2gDXW"); // Tu clave pública aquí
+    emailjs.init("bD0Wc4OdHZ6YPa0TH"); // Tu clave pública aquí
   }, []);
 
   return (
