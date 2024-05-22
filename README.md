@@ -29,17 +29,11 @@ Este portafolio es más que una colección de trabajos; es una declaración de m
 - **React**: Biblioteca de JavaScript.
 - **Node.js**: Entorno de ejecución para JavaScript construido con el motor de JavaScript V8 de Chrome.
 
-## 📍 Backend (lo deje echo y conectado para una proxima incrementacion)
-- **Express**: Framework para aplicaciones web para Node.js.
-- **Mongoose**: Herramienta de modelado de objetos para MongoDB y Node.js.
-- **Helmet**: Ayuda a proteger las aplicaciones Express configurando varios encabezados HTTP.
-- **Morgan**: Middleware de registro de solicitudes HTTP para Node.js.
-- **jsonwebtoken**: Implementación de JSON Web Tokens para Node.js.
+
 
 ## 👮‍♀️ Seguridad
 - **bcryptjs**: Librería para hashear y verificar contraseñas en Node.js.
-- **cors**: Middleware que se puede usar para habilitar CORS.
-- **dotenv**: Carga variables de entorno desde un archivo `.env`.
+
 
 ## 📍 Frontend
 - **Tailwind CSS**: Framework de CSS que permite crear diseños responsivos y personalizados rápidamente.
@@ -77,5 +71,5 @@ Las contribuciones son bienvenidas. Si tienes alguna sugerencia para mejorar, po
 
 
 ## 🔗 Deploy  
-
-https://dashing-dasik-1db220.netlify.app/
+[
+https://dashing-dasik-1db220.netlify.app/](https://astonishing-peony-88d3d9.netlify.app/)
