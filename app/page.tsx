@@ -8,10 +8,10 @@ export default function Home() {
   const audioRef = useRef(null);
 
   const toggleAudio = () => {
-    if (isPlaying) {
-      audioRef.current.pause();
-    } else {
-      audioRef.current.play();
+    if (isPlaying && audioRef.current) {
+      (audioRef.current as HTMLAudioElement).pause();
+    } else if (audioRef.current) {
+      (audioRef.current as HTMLAudioElement).play();
     }
     setIsPlaying(!isPlaying);
   };
