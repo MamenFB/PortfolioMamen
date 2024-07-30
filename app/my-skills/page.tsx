@@ -20,7 +20,7 @@ const Page = () => {
             </span>
           </h1>
           <h2 className="text-[12px] md:text-[30px] lg:text-[30px] text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500 font-black">
-            Este es mi Stack Tecnológico
+            Este es mi Stack Tecnológico.
           </h2>
           
           <Image
