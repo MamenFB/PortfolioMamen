@@ -13,7 +13,7 @@ const ClientOnlyContactForm = () => {
 
   return (
     <>
-      {isClient ? <ContactForm /> : <div>Cargando formulario...</div>}
+      {isClient ? <ContactForm /> : <div> Cargando formulario...</div>}
     </>
   );
 };
