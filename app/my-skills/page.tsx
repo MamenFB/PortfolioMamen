@@ -26,8 +26,8 @@ const Page = () => {
           <Image
             src="/mamen.png"
             alt="Mamen"
-            height={120}
-            width={120}
+            height={90}
+            width={90}
             className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[15] rounded-lg "
             style={{
               WebkitMaskImage: 'linear-gradient(to bottom, black 90%, transparent), linear-gradient(to right, black 90%, transparent)',
