@@ -17,16 +17,16 @@ export default function Home() {
   };
 
   return (
-    <main className="w-screen h-screen relative">
+    <main className="w-screen h-screen relative overflow-hidden">
       <audio ref={audioRef} src="/audio.mp3"></audio>
       <div
         className="flex items-center w-full h-full bg-cover bg-center"
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
-        <div className="px-4 sm:px-10 md:pl-20 md:pb-20 flex flex-col gap-5 z-10 max-w-full md:max-w-[750px]">
-          <h1 className="text-[32px] sm:text-[40px] md:text-[50px] text-white font-bold">
+        <div className="px-4 sm:px-10 md:pl-20 md:pb-20 flex flex-col gap-5 z-10 max-w-full md:max-w-[750px] lg:pl-36">
+          <h1 className="text-[28px] sm:text-[36px] md:text-[43px] text-white font-bold">
             Bienvenidxs a mi Portfolio
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-red-400">
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-red-700">
               Soy Mamen
             </span>
           </h1>
@@ -40,17 +40,19 @@ export default function Home() {
             </button>
           </div>
           
-          <div className="text-gray-200 hidden md:block">
+          <div className="text-gray-200">
             <section>
-              <h2 className="text-[24px] sm:text-[30px] text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-red-500 font-bold">
+              <h2 className="text-[20px] sm:text-[24px] md:text-[30px] text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-red-400 font-bold">
                 Mi pasión por la tecnología.
               </h2>
-              <p className="mt-2">
-                ¡Hola! Soy una entusiasta de la tecnología. Mi pasión por aprender y experimentar me
-                mantiene en constante evolución. Cuando no estoy sumergida en el trabajo, me encantan los
-                deportes y vivo al ritmo del rock.
+              <p className="mt-2 text-[14px] sm:text-[16px]">
+                ¡Hola! Soy una entusiasta de la tecnología. Mi pasión <br />por aprender y experimentar me
+                mantiene  <br />en constante evolución. Cuando no estoy sumergida <br /> en el trabajo, me encantan los
+                deportes y vivo <br />
+                al ritmo del rock.
               </p>
             </section>
+            <p className="mt-2 text-[80px] sm:text-[2px]"> .</p>
           </div>
         </div>
       </div>
