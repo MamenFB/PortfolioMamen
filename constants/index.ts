@@ -84,6 +84,12 @@ export const SkillData = [
     width: 60,
     height: 60,
   },
+  {
+    name: "workpress",
+    Image: "/workpress.png",
+    width: 60,
+    height: 60,
+  },
 ];
 
 export const Socials = [
