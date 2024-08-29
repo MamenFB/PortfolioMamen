@@ -19,7 +19,7 @@ const Page = () => {
               Rodeada de tecnología, busco capturar su esencia con pasión y curiosidad.
             </span>
           </h1>
-          <h2 className="text-[14px] md:text-[30px] lg:text-[30px] text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500 font-black">
+          <h2 className="text-[14px] md:text-[30px] lg:text-[30px] text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-red-700 font-black">
             Este es mi Stack Tecnológico.
           </h2>
           
@@ -28,7 +28,7 @@ const Page = () => {
             alt="Mamen"
             height={90}
             width={90}
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[15] rounded-lg "
+            className="absolute top-[55%]  left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[15] rounded-lg "
             style={{
               WebkitMaskImage: 'linear-gradient(to bottom, black 90%, transparent), linear-gradient(to right, black 90%, transparent)',
               WebkitMaskComposite: 'source-in',
