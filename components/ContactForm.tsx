@@ -41,12 +41,12 @@ const ContactForm = () => {
   };
 
   useEffect(() => {
-    emailjs.init("bD0Wc4OdHZ6YPa0TH"); // Tu clave pública aquí
+    emailjs.init("bD0Wc4OdHZ6YPa0TH"); // mi clave pública aquí
   }, []);
 
   return (
     <form onSubmit={sendMail}>
-      <h2 className="text-2xl font-bold mb-5 text-white">¿Contactamos?</h2>
+      <h2 className="text-2xl font-bold mb-1 text-white">¿Contactamos?</h2>
       <div className="mb-3">
         <input
           type="text"
