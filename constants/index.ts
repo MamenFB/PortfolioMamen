@@ -72,6 +72,18 @@ export const SkillData = [
     width: 80,
     height: 80,
   },
+  {
+    name: "jest",
+    Image: "/jest.png",
+    width: 60,
+    height: 60,
+  },
+  {
+    name: "cypress",
+    Image: "/cypress.png",
+    width: 60,
+    height: 60,
+  },
 ];
 
 export const Socials = [
