@@ -107,7 +107,7 @@ export const Socials = [
   },
   {
     name: "CV",
-    src: "/CV.png",
+    src: "/cv.png",
     url: "https://drive.google.com/file/d/1cr78mu2Il1tZU0Rft5e_VWVFp6tW0FqN/view?usp=drive_link"
   },
 ];
