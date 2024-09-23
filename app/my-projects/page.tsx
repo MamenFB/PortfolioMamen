@@ -7,7 +7,7 @@ import React from 'react'
 const Page = () => {
   return (
     <div
-      style={{ backgroundImage: "url(/mountains.jpg)", height: "100vh", overflowY: "auto"}}  
+      style={{ backgroundImage: "url(/mountains.png)", height: "100vh", overflowY: "auto"}}  
       className='w-screen h-screen flex flex-col items-center justify-center bg-center bg-cover '>
       
       {/* Texto encima de la cuadrícula */}
