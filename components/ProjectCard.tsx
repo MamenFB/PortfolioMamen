@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 interface Props {
     image: string;
@@ -46,7 +47,9 @@ const ProjectCard = ({ image, title, text, deployUrl }: Props) => {
                             <p className='text-white bg-purple-800 rounded-md p-2'>
                                 {text}
                             </p>
-                            <a href={deployUrl} target="_blank" rel="noopener noreferrer" className="text-white underline font-bold"> Clic para ver Deploy 👇 </a>
+                            <a href={deployUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-white underline font-bold">
+                                Deploy <FaExternalLinkAlt />
+                            </a>
                         </div>
                 </div>
             </motion.div>
