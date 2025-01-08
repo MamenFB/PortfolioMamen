@@ -90,6 +90,12 @@ export const SkillData = [
     width: 60,
     height: 60,
   },
+  {
+    name: "cloud",
+    Image: "/cloud.png",
+    width: 100,
+    height: 100,
+  },
 ];
 
 export const Socials = [
