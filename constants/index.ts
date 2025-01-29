@@ -39,7 +39,7 @@ export const SkillData = [
     width: 40,
     height: 40,
   },
- 
+
   {
     name: "TypeScript",
     Image: "/ts.png",
@@ -53,7 +53,7 @@ export const SkillData = [
     height: 10,
   },
 
- 
+
   {
     name: "Node js",
     Image: "/node-js.png",
