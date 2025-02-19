@@ -24,8 +24,7 @@ export const SkillData = [
     name: "React",
     Image: "/react.png",
     width: 80,
-    height: 80
-,
+    height: 80,
   },
   {
     name: "Tailwind Css",
