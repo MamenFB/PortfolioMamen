@@ -69,7 +69,7 @@ export default function Home() {
       </div>
 
       <div className="absolute bottom-0 z-5 w-full h-auto">
-        {/* Additional background or decorative elements can go here */}
+        {/*  elementos de fondo adicionales o decorativos */}
       </div>
 
       <Image
